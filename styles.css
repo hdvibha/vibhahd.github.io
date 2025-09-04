@@ -70,3 +70,12 @@ footer {
   max-width: 600px;
   line-height: 1.6;
 }
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;      /* makes it round */
+  object-fit: cover;       /* crop neatly */
+  margin-bottom: 1rem;     /* spacing below photo */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* soft shadow */
+  border: 3px solid #fff;  /* clean white border */
+}
